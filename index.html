@@ -1,0 +1,48 @@
+<!-- index.html -->
+<html>
+<head>
+    <title>Angular 2 Quickstart</title>
+    <script src="traceur-runtime.js"></script>
+    <script src="system@0.16.js"></script>
+    <script src="angular2.dev.js"></script>
+    <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+</head>
+
+<body class="container">
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            DI, and the For and If directives
+        </div>
+
+        <div class="panel-body">
+
+            <display></display>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            Events and Bindings
+        </div>
+
+        <div class="panel-body">
+
+            <todo-list></todo-list>
+        </div>
+    </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            A Nested Component
+        </div>
+
+        <div class="panel-body">
+
+            <parent></parent>
+        </div>
+    </div>
+    <!-- The app component created in app.ts -->
+    <script>System.import('app');</script>
+    <script>System.import('todo');</script>
+    <script>System.import('parent-child');</script>
+
+</body>
+</html>
